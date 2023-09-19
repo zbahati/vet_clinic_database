@@ -102,21 +102,12 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[connecting front end to backend]**
+- **[ optimizing database ]**
+- **[ join multitable quering]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](<replace-with-your-deployment-URL>)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -134,7 +125,7 @@ In order to run this project you need:
 Example command:
 
 ```sh
- gem install rails
+machine that have postgres and pdadmin in it.
 ```
  -->
 
@@ -147,7 +138,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/zbahati/Vet_clinic_db
 ```
 --->
 
@@ -160,33 +151,12 @@ Example command:
 
 ```sh
   cd my-project
-  gem install
 ```
 --->
 
 ### Usage
 
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
 ### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
 ### Deployment
 
@@ -210,15 +180,9 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/zbahati)
+- Twitter: [@twitterhandle](https://twitter.com/zbahati)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/zirimwabagabo-bahati/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -228,9 +192,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- **[creating databases]**
+- **[ Creating tables and add data types ]**
+- **[ do some important queries that every backend develop could need ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -240,7 +204,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/zbahati/Vet_clinic_db/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -260,7 +224,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank microverse for un believable help and guide throughout the whole project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -270,13 +234,13 @@ I would like to thank...
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **[What kind of technology would be better to use while using this project]**
 
-  - [Answer_1]
+  - for this project you need to have postgress installed , and pgAdmin so that you can use this project
 
-- **[Question_2]**
+- **[ What kind of experience need to use this project ]**
 
-  - [Answer_2]
+  - only the basics of computer science and developement is need like what is postgress and how can i start post gres and then you can go on with this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -286,6 +250,5 @@ I would like to thank...
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
