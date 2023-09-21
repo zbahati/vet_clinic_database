@@ -28,15 +28,21 @@ SELECT * FROM animals WHERE weight_kg BETWEEN 10.4 AND 17.3;
 -- 1. Inside a transaction update the animals table by setting the species column to unspecified. Verify that change was made. Then roll back the change and verify that the species columns went back to the state before the transaction.
 UPDATE animals SET species= 'Unspecified'
 -- 2.Update the animals table by setting the species column to digimon for all animals that have a name ending in mon.
+
+BEGIN
 UPDATE animals SET species ='digimon' WHERE name LIKE '%mon'
+SELECT * FROM animals
+ROLLBACK,
+SELECT * FROM animals
 -- 3.Update the animals table by setting the species column to pokemon for all animals that don't have species already set.
 UPDATE animals SET species ='pokemon' WHERE species = 'Unspecified';
 
 -- 4.  delete all records in the animals table, then roll back the transaction.
-BEGIN;
-DELETE FROM animals;
+BEGIN,
+DELETE FROM animals,
+SELECT * FROM animals,
 ROLLBACK;
-
+SELECT * FROM animals
 
 -- 5. Inside a transaction:
 -- Delete all animals born after Jan 1st, 2022.
@@ -53,8 +59,6 @@ UPDATE animals SET weight_kg = weight_kg * -1;
 ROLLBACK TO SAVEPOINT weight_update_savepoint;
 UPDATE animals SET weight_kg = weight_kg * -1 WHERE weight_kg < 0;
 COMMIT;
-
-
 
 -- 6. How many animals are there?
 SELECT COUNT(*) FROM animals

@@ -1,9 +1,3 @@
-# curriculum-databases-projects-template
-
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
-
-
 ## Getting Started
 
 This repository includes files with plain SQL that can be used to recreate a database:
@@ -63,29 +57,27 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [VET_CLINICK DATABASE] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**[vet_clinick_database]** : This is the project that talk about database management and best practice, where we do database optimizaiton like best query, creating foreign keys , connecting tables, and querying multiple tables using join table command.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">N/A</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="#">N/A</a></li>
   </ul>
 </details>
 
@@ -100,8 +92,6 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[connecting front end to backend]**
 - **[ optimizing database ]**
 - **[ join multitable quering]**
@@ -113,62 +103,37 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
+- pgAdmin
+- postgresql installed
 
-<!--
-Example command:
-
-```sh
-machine that have postgres and pdadmin in it.
-```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
+-  git clone https://github.com/zbahati/vet_clinick_database
+- cd vet_clinick_database
+- cd vet_clinick_database folder
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone https://github.com/zbahati/Vet_clinic_db
-```
---->
 
 ### Install
 
 Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-```
---->
+ - cd to the project
+ - install postgresql database installation
+ - pdAdmin version =>7.6
 
 ### Usage
-
+- after cd to the folder
+- you can run code . to go in the current directory
+- now you can run pgAdmin and then copy and past the code into pdadmin query editor to execute the commmand
 ### Run tests
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+- explain analyze database to make sure that have the best performance
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -190,7 +155,6 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
 - **[creating databases]**
 - **[ Creating tables and add data types ]**
@@ -212,7 +176,6 @@ Feel free to check the [issues page](https://github.com/zbahati/Vet_clinic_db/is
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
 If you like this project...
 
@@ -222,8 +185,6 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
 I would like to thank microverse for un believable help and guide throughout the whole project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -231,10 +192,6 @@ I would like to thank microverse for un believable help and guide throughout the
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[What kind of technology would be better to use while using this project]**
 
   - for this project you need to have postgress installed , and pgAdmin so that you can use this project
 
