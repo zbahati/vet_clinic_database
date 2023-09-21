@@ -1,5 +1,17 @@
 /* Database schema to keep the structure of entire database. */
+CREATE DATABASE vet_clinic_db;
 
 CREATE TABLE animals (
-    name varchar(100)
-);
+	id SERIAL NOT NULL PRIMARY KEY,
+	name VARCHAR(50),
+	date_of_birth DATE,
+	ascape_attempts INT,
+	neutered BOOLEAN,
+	weight_kg DECIMAL(10,2)
+)
+
+-- Add the "species" column to the "animals" table
+ALTER TABLE animals
+			ADD COLUMN species VARCHAR(50);
+
+
